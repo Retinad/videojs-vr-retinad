@@ -1,0 +1,4 @@
+local-config/
+debug.log
+node_modules/
+.idea/

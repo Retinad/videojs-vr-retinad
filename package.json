@@ -1,0 +1,29 @@
+{
+  "name": "videojs-vr-retinad",
+  "version": "1.0.0",
+  "description": "Video JS Plugin to allow integration with the Retinad Platform",
+  "main": "src/js/retinad.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Retinad/videojs-vr-retinad.git"
+  },
+  "author": "Retinad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Retinad/videojs-vr-retinad/issues"
+  },
+  "homepage": "https://github.com/Retinad/videojs-vr-retinad#readme",
+  "dependencies": {
+    "aws-sdk": "^2.28.0",
+    "clientjs": "^0.1.11",
+    "video.js": "^5.18.4",
+    "videojs-vr": "^0.3.4"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.0"
+  }
+}
